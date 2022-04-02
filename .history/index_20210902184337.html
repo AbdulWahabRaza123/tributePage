@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>FCC: Tribute Page</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <header id="Nav">
+        <div class="A-Button">
+            <center><a href="#" id="A-Link">A</a></center>
+        </div>
+        <img id="image" src="data:image/png;base64,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"
+            alt="Logo " width="30px" height="30px">
+        <div class="Web-Name">
+            <b>FCC: Tribute Page</b>
+        </div>
+
+        <a href="#" id="Web-Link">FreeCodeCamp.org</a>
+        <button id="follow-button">+ Follow</button>
+
+    </header>
+    <main id="main">
+        <br>
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        The Man Who Saved the Millions Lives.
+
+        <div id="img-div">
+            <img div="image2" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Picture">
+            <p div="img-caption"><br>Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p><br>
+        </div>
+        <div id="tribute-info">
+            <b id="Heading">Here's a time line of Dr. Borlaug's life:</b>
+            <ul id="Lists">
+                <li><strong>1914</strong> - Born in Cresco, Iowa</li>
+                <li><strong>1933</strong>- Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+                <br>
+                <li><strong>1935</strong>- Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <br>
+                <li><strong>1937</strong>- Finishes university and takes a job in the US Forestry Service</li>
+                <br>
+                <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+                <br>
+                <li><strong>1941</strong>- Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li>
+                <br>
+                <li><strong>1942</strong>- Receives a Ph.D. in Genetics and Plant Pathology</li>
+                <br>
+                <li><strong>1944 </strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease
+                    resistent wheat - including different varieties for each major climate on Earth.</li>
+                <br>
+                <li><strong>1945</strong>- Discovers a way to grown wheat twice each season, doubling wheat yields</li>
+                <br>
+                <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li>
+                <br>
+                <li><strong>1962</strong> - Visits Delhi and brings his high-yielding strains of wheat to the Indian subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li>
+                <br>
+                <li><strong>1970 </strong>- receives the Nobel Peace Prize
+                </li>
+                <br>
+                <li><strong>1983</strong>- helps seven African countries dramatically increase their maize and sorghum yields</li>
+                <br>
+                <li><strong>1984</strong>- becomes a distinguished professor at Texas A&M University</li>
+                <br>
+                <li><strong>2005</strong>- states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous
+                    because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li>
+                <br>
+                <li><strong>2009</strong>- dies at the age of 95. </ul>
+            </li><br><i>
+                    <p id="Note"> "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."<br><br> -- Indian Prime Minister Manmohan Singh
+                    </p></i>
+        </div><br><br>
+        <h5><b>If you have time, you should read more about this incredible human being on his <a href="#">Wikipedia Entry</a></b>
+        </h5><br>
+
+    </main>
+    <br><br>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous "></script>
+    -->
+</body>
+
+</html>

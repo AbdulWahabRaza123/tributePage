@@ -1,0 +1,12 @@
+header {
+    background-color: black;
+    padding: 8px;
+}
+
+#image {
+    float: left;
+}
+
+h1 {
+    font-size: 5px;
+}

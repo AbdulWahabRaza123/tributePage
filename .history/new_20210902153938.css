@@ -1,0 +1,14 @@
+header {
+    background-color: black;
+    padding: 8px;
+}
+
+#image {
+    float: left;
+    margin-top: 8px;
+}
+
+.Web-Name {
+    color: white;
+    font-size: 22px;
+}

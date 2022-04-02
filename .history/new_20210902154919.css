@@ -1,0 +1,42 @@
+header {
+    background-color: black;
+    padding: 8px;
+}
+
+#image {
+    float: left;
+    margin-top: 8px;
+}
+
+.Web-Name {
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+}
+
+#Web-Link {
+    color: white;
+    opacity: 0.5;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#Web-Link:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+#follow-button {
+    color: black;
+    font-family: "Helvetica";
+    font-size: 10pt;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #3399FF;
+    border-radius: 3px;
+    width: 85px;
+    height: 30px;
+    top: 50px;
+    left: 50px;
+    cursor: hand;
+}

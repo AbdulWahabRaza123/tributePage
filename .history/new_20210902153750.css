@@ -1,0 +1,14 @@
+header {
+    background-color: black;
+    padding: 8px;
+}
+
+#image {
+    float: left;
+}
+
+.Web-Name {
+    color: blanchedalmond;
+    size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}

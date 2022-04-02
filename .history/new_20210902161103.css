@@ -1,0 +1,62 @@
+header {
+    background-color: black;
+    padding: 8px;
+}
+
+#image {
+    float: left;
+    margin-top: 8px;
+}
+
+.Web-Name {
+    color: white;
+    font-size: 22px;
+    margin: 0px;
+}
+
+#Web-Link {
+    color: white;
+    opacity: 0.5;
+    margin: 0px;
+    font-size: 15px;
+}
+
+#Web-Link:hover {
+    text-decoration: none;
+    opacity: 1;
+}
+
+#follow-button {
+    color: black;
+    font-family: "Helvetica";
+    font-size: 10px;
+    background-color: greenyellow;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 3px;
+    width: 60px;
+    height: 20px;
+    top: 50px;
+    left: 50px;
+    cursor: hand;
+}
+
+.A-Button {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    float: right;
+    font-size: 30px;
+    border: 5px white;
+    border-radius: 5px;
+}
+
+#A-Link {
+    text-decoration: none;
+    color: white;
+}
+
+#A-Link:hover {
+    text-decoration: none;
+    color: black;
+}
